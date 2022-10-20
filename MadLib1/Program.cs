@@ -40,7 +40,7 @@ namespace MadLib1
             string day = Console.ReadLine();
             Console.Write("Enter a letter (the chord you're using): ");
             char chord = Convert.ToChar(Console.ReadLine());
-            Console.Write("Enter a scale (major/minor)");
+            Console.Write("Enter a scale (major/minor): ");
             string scale = Console.ReadLine();
             Console.Write("Enter a number (how many flats): ");
             int number2 = Convert.ToInt32(Console.ReadLine());
@@ -58,7 +58,7 @@ namespace MadLib1
             string adjective3 = Console.ReadLine();
             Console.Write("Enter a noun (what it is sound): ");
             string noun = Console.ReadLine();
-            Console.Write("Enter a name (family members)");
+            Console.Write("Enter a name (family members): ");
             string family_name = Console.ReadLine();
             Console.Write("Enter a song (name of a song): ");
             string song = Console.ReadLine();
