@@ -24,6 +24,11 @@ namespace MadLib1
             Console.WriteLine("My _____ likes it when I play _____, and always gives me a round of applause after my performances!");
             Console.WriteLine("When I return to school, my teacher will be _____ of how great I am at playing my instrument.");
             Console.WriteLine("My teacher might even think I sound like _____!");
+
+            Console.WriteLine("\nBut before we start, let us know your name.");
+            Console.Write("You are? (Please input your name): ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Okay {name}. Let's begin.");
         }
     }
 }
