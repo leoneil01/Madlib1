@@ -10,6 +10,7 @@ namespace MadLib1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Making Music at Home Mad Lib");
         }
     }
 }

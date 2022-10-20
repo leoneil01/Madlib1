@@ -1,1 +1,6 @@
 C:\Users\admin\Documents\Custom Office Templates\C#\MadLib1\MadLib1\bin\Debug\MadLib1.exe.config
+C:\Users\admin\Documents\Custom Office Templates\C#\MadLib1\MadLib1\bin\Debug\MadLib1.exe
+C:\Users\admin\Documents\Custom Office Templates\C#\MadLib1\MadLib1\bin\Debug\MadLib1.pdb
+C:\Users\admin\Documents\Custom Office Templates\C#\MadLib1\MadLib1\obj\Debug\MadLib1.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Custom Office Templates\C#\MadLib1\MadLib1\obj\Debug\MadLib1.exe
+C:\Users\admin\Documents\Custom Office Templates\C#\MadLib1\MadLib1\obj\Debug\MadLib1.pdb
