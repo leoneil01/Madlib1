@@ -10,6 +10,10 @@ namespace MadLib1
     {
         static void Main(string[] args)
         {
+            string[] instruments = new string[2];
+            string[] adjectives = new string[4];
+            int[] numbers = new int[4];
+
             Console.WriteLine("Making Music at Home Mad Lib");
 
             Console.WriteLine("\nBelow here, you will fill in all the blank spaces provided.\n");
@@ -33,9 +37,9 @@ namespace MadLib1
             Console.ReadLine();
 
             Console.Write("Enter an instrument (you've practice): ");
-            string instrument1 = Console.ReadLine();
+            instruments[0] = Console.ReadLine();
             Console.Write("Enter a number (how many hours you spent playing the instrument): ");
-            int number1 = Convert.ToInt32(Console.ReadLine());
+            numbers[0] = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter a day/week (on what day do you usually play the instrument): ");
             string day = Console.ReadLine();
             Console.Write("Enter a letter (the chord you're using): ");
@@ -43,19 +47,19 @@ namespace MadLib1
             Console.Write("Enter a scale (major/minor): ");
             string scale = Console.ReadLine();
             Console.Write("Enter a number (how many flats): ");
-            int number2 = Convert.ToInt32(Console.ReadLine());
+            numbers[1] = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter a number (how many sharps): ");
-            int number3 = Convert.ToInt32(Console.ReadLine());
+            numbers[2] = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter an adjective (why do you like this signature): ");
-            string adjective1 = Console.ReadLine();
+            adjectives[0] = Console.ReadLine();
             Console.Write("Enter a number (your time signature): ");
-            int number4 = Convert.ToInt32(Console.ReadLine());
+            numbers[3] = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter an adjective (why do you love this time signature): ");
-            string adjective2 = Console.ReadLine();
+            adjectives[1] = Console.ReadLine();
             Console.Write("Enter an instrument (the one that you want to learn): ");
-            string instrument2 = Console.ReadLine();
+            instruments[1] = Console.ReadLine();
             Console.Write("Enter an adjective (why you want to learn that instrument): ");
-            string adjective3 = Console.ReadLine();
+            adjectives[2] = Console.ReadLine();
             Console.Write("Enter a noun (what it is sound): ");
             string noun = Console.ReadLine();
             Console.Write("Enter a name (family members): ");
@@ -63,19 +67,19 @@ namespace MadLib1
             Console.Write("Enter a song (name of a song): ");
             string song = Console.ReadLine();
             Console.Write("Enter an adjective (reaction of your teacher): ");
-            string adjective4 = Console.ReadLine();
+            adjectives[3] = Console.ReadLine();
             Console.Write("Enter a name (favorte artist/composer): ");
             string artist_name = Console.ReadLine();
 
-            Console.WriteLine($"\nWhile I've stayed at home. I've practiced the {instrument1} for {number1} hours every {day}.");
+            Console.WriteLine($"\nWhile I've stayed at home. I've practiced the {instruments[0]} for {numbers[0]} hours every {day}.");
             Console.WriteLine($"My favorite key signature to play and practice in is {chord} {scale}.");
-            Console.WriteLine($"It has {number2} flats and {number3} sharps.");
-            Console.WriteLine($"I like this key signature because it is {adjective1}.");
+            Console.WriteLine($"It has {numbers[1]} flats and {numbers[2]} sharps.");
+            Console.WriteLine($"I like this key signature because it is {adjectives[0]}.");
             Console.WriteLine($"I've also gotten awesome at counting time signatures.");
-            Console.WriteLine($"The time signature I love is {number4}, because it is {adjective2} to count");
-            Console.WriteLine($"One instrument I want to learn how to play while I'm at home is {instrument2}, because it is {adjective3} and sounds like a {noun}.");
+            Console.WriteLine($"The time signature I love is {numbers[3]}, because it is {adjectives[1]} to count");
+            Console.WriteLine($"One instrument I want to learn how to play while I'm at home is {instruments[1]}, because it is {adjectives[2]} and sounds like a {noun}.");
             Console.WriteLine($"My {family_name} likes it when I play {song}, and always gives me a round of applause after my performances!");
-            Console.WriteLine($"When I return to school, my teacher will be {adjective4} of how great I am at playing my instrument.");
+            Console.WriteLine($"When I return to school, my teacher will be {adjectives[3]} of how great I am at playing my instrument.");
             Console.WriteLine($"My teacher might even think I sound like {artist_name}!");
 
             Console.WriteLine($"\nWell there you have it {name}. I hope you had fun.");
