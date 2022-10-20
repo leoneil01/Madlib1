@@ -28,6 +28,7 @@ namespace MadLib1
             Console.WriteLine("\nBut before we start, let us know your name.");
             Console.Write("You are? (Please input your name): ");
             string name = Console.ReadLine();
+            Console.WriteLine($"Okay {name}. Let's begin.");
             Console.WriteLine("Please enter to continue . . . ");
             Console.ReadLine();
 
