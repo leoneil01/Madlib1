@@ -66,6 +66,17 @@ namespace MadLib1
             string adjective4 = Console.ReadLine();
             Console.Write("Enter a name (favorte artist/composer): ");
             string artist_name = Console.ReadLine();
+
+            Console.WriteLine($"\nWhile I've stayed at home. I've practiced the {instrument1} for {number1} hours every {day}.");
+            Console.WriteLine($"My favorite key signature to play and practice in is {chord} {scale}.");
+            Console.WriteLine($"It has {number2} flats and {number3} sharps.");
+            Console.WriteLine($"I like this key signature because it is {adjective1}.");
+            Console.WriteLine($"I've also gotten awesome at counting time signatures.");
+            Console.WriteLine($"The time signature I love is {number4}, because it is {adjective2} to count");
+            Console.WriteLine($"One instrument I want to learn how to play while I'm at home is {instrument2}, because it is {adjective3} and sounds like a {noun}.");
+            Console.WriteLine($"My {family_name} likes it when I play {song}, and always gives me a round of applause after my performances!");
+            Console.WriteLine($"When I return to school, my teacher will be {adjective4} of how great I am at playing my instrument.");
+            Console.WriteLine($"My teacher might even think I sound like {artist_name}!");
         }
     }
 }
