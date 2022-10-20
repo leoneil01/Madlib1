@@ -77,6 +77,8 @@ namespace MadLib1
             Console.WriteLine($"My {family_name} likes it when I play {song}, and always gives me a round of applause after my performances!");
             Console.WriteLine($"When I return to school, my teacher will be {adjective4} of how great I am at playing my instrument.");
             Console.WriteLine($"My teacher might even think I sound like {artist_name}!");
+
+            Console.WriteLine($"\nWell there you have it {name}. I hope you had fun.");
         }
     }
 }
